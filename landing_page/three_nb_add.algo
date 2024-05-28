@@ -1,0 +1,39 @@
+ALGORITHM three_nb_add
+VAR
+    numb1,numb2,numb3: INTEGER;
+    sum: INTEGER:= 0
+BEGIN
+    Read(numb1)
+    Read(numb2)
+    Read(numb3)
+    sum:= num1 + num2 + num3
+    write(sum)
+END
+
+ALGORITHM pseducode
+VAR
+    M1,M2,M3,M4: INTEGER;
+    sum: INTEGER:= 0
+    let cutOff = 50 
+BEGIN
+    Read(M1)
+    Read(M2)
+    Read(M3)
+    Read(M4)
+
+    step1: input M1,M2,M3,M4
+    step2: GRADE (M1+M2+M3+M4) / 4
+    step3: if (GRADE < 50) then print "Fail"
+        else print "Pass"
+END
+
+ALGORITHM 
+VAR
+    set_declarations
+BEGIN
+    set_instructions
+END
+
+step1: input L and B,
+step2: L x B
+step3: print output
